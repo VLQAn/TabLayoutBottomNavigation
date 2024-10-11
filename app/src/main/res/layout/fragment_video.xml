@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/video_background"
+    android:layout_height="match_parent"
+    tools:context=".Video">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/videpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Page"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        />
+
+    <TextView
+    android:id="@+id/ten"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:text="Võ Lưu Quốc An"
+    android:textColor="@color/white"
+    android:textSize="24sp"
+    android:layout_below="@+id/videpage"
+    android:layout_marginTop="20dp"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="22115053122301"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_below="@+id/ten"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
